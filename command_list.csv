@@ -1,0 +1,16 @@
+  242  git push origin main
+  243  git branch develop
+  244  git checkout develop
+  245  touch develop_test.txt
+  246  git add .
+  247  git commit -m "gorev3"
+  248  git push origin main
+  249  git status
+  250  git add .
+  251  git commit -m "gorev3-devami"
+  252  git push origin main
+  253  git push -u origin develop
+  254  git checkout main
+  255  git merge develop
+  256  git log --oneline --graph --all
+  257  git push origin main
